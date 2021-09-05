@@ -1,0 +1,27 @@
+.AddTodo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddTodo h2 {
+  width: 100%;
+}
+
+.AddTodo form {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddTodo input,
+.AddTodo select,
+.AddTodo textarea {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.AddTodo label {
+  padding: 10px 0 5px 0;
+}

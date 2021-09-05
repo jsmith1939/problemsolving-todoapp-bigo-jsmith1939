@@ -1,0 +1,19 @@
+.TodoList {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: auto;
+  background: #94cdbd;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.TodoList h1 {
+  width: 100%;
+}
+
+.TodoList .AddTodo,
+.TodoList .todoDisplay {
+  width: 50%;
+}
